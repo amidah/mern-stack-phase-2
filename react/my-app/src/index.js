@@ -5,6 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import Bike from './Bike';
 import MyList from './MyList';
 import Counter from './Counter';
+import List from './List';
+import BasicFormHandling from './BasicFormHandling';
+import TimerApp from './TimerApp';
+import GreetingApp from './GreetingApp';
 
 const items = [
   {id:0, name:'John'},
@@ -12,12 +16,18 @@ const items = [
   {id:2, name:'Roy'}
 ]
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Bike />
     <MyList items={items}/>
     <Counter />
+    <List />
+    <BasicFormHandling />
+    <TimerApp />
+    <GreetingApp />
   </React.StrictMode>
 );
 
