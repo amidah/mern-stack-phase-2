@@ -9,6 +9,7 @@ import List from './List';
 import BasicFormHandling from './BasicFormHandling';
 import TimerApp from './TimerApp';
 import GreetingApp from './GreetingApp';
+import CounterHookApp from './CounterHookApp';
 
 const items = [
   {id:0, name:'John'},
@@ -28,6 +29,7 @@ root.render(
     <BasicFormHandling />
     <TimerApp />
     <GreetingApp />
+    <CounterHookApp />
   </React.StrictMode>
 );
 

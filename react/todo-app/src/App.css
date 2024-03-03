@@ -1,0 +1,12 @@
+.App{
+  font-family: cursive;
+  color: green;
+  text-align: center;
+  margin: 10%;
+  border: 2px solid black;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: red;
+}
